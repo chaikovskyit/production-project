@@ -14,10 +14,14 @@ export const Counter = () => {
 
 	return (
 		<>
-			<div className={styles.btn}>Count: {count}</div>
+			<div>Count: {count}</div>
 			<h1 className={styles.lol}>lol</h1>
-			<button onClick={increment}>+</button>
-			<button onClick={decrement}>-</button>
+			<button className={styles.btn} onClick={increment}>
+				+
+			</button>
+			<button className={styles.btn} onClick={decrement}>
+				-
+			</button>
 		</>
 	);
 };
