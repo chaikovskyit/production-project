@@ -1,8 +1,8 @@
 import { render } from 'react-dom';
+import App from './app/App';
 import { BrowserRouter } from 'react-router-dom';
-import App from './App';
-import '../src/styles/index.scss';
-import ThemeProvider from './theme/ThemeProvider';
+import { ThemeProvider } from 'app/providers/ThemeProvider';
+import React from 'react';
 
 render(
 	<BrowserRouter>
