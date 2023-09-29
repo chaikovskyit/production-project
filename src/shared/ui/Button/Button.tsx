@@ -1,5 +1,4 @@
 import React, { ButtonHTMLAttributes, FC } from 'react';
-import { Link, LinkProps } from 'react-router-dom';
 import { classNames } from 'shared/lib/classNames/classNames';
 import cls from './Button.module.scss';
 
